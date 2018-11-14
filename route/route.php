@@ -16,7 +16,7 @@ Route::get('think', function () {
 Route::get('hello/:name', 'index/hello');
 Route::get('api/:version/index', 'api/:version.Index/index');
 
-Route::get('api/:version/token/admin', 'api/:version.Token/getAdminToken');
+Route::post('api/:version/token/admin', 'api/:version.Token/getAdminToken');
 
 Route::post('api/:version/admin/username/update', 'api/:version.Admin/updateUserName');
 Route::post('api/:version/admin/pwd/update', 'api/:version.Admin/updatePwd');

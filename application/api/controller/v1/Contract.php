@@ -166,7 +166,7 @@ class Contract extends BaseController
      * @apiVersion 1.0.1
      * @apiDescription
      * @apiExample {get}  请求样例:
-     * http://mengant.cn/api/v1/contract/list/ready?page=1&size=10&key=
+     * http://file.mengant.cn/api/v1/contract/list/ready?page=1&size=10&key=
      * @apiParam (请求参数说明) {int}  page 1
      * @apiParam (请求参数说明) {int}  size 10
      * @apiParam (请求参数说明) {String}  key 关键字查询
@@ -205,7 +205,7 @@ class Contract extends BaseController
      * @apiVersion 1.0.1
      * @apiDescription
      * @apiExample {get}  请求样例:
-     * http://mengant.cn/api/v1/contract/list/delete?page=1&size=10&key=
+     * http://file.mengant.cn/api/v1/contract/list/delete?page=1&size=10&key=
      * @apiParam (请求参数说明) {int}  page 1
      * @apiParam (请求参数说明) {int}  size 10
      * @apiParam (请求参数说明) {String}  key 关键字查询
@@ -245,7 +245,7 @@ class Contract extends BaseController
      * @apiVersion 1.0.1
      * @apiDescription
      * @apiExample {get}  请求样例:
-     * http://mengant.cn/api/v1/contract/list/pass?page=1&size=10&time_begin=2018-11-01&time_end=2018-11-20&key=
+     * http://file.mengant.cn/api/v1/contract/list/pass?page=1&size=10&time_begin=2018-11-01&time_end=2018-11-20&key=
      * @apiParam (请求参数说明) {int}  page 1
      * @apiParam (请求参数说明) {int}  size 10
      * @apiParam (请求参数说明) {String}  time_begin 时间查询开始时间
@@ -289,7 +289,7 @@ class Contract extends BaseController
      * @apiVersion 1.0.1
      * @apiDescription
      * @apiExample {get}  请求样例:
-     * http://mengant.cn/api/v1/contract/list/pass?time_begin=2018-11-01&time_end=2018-11-20&key=
+     * http://file.mengant.cn/api/v1/contract/list/pass?time_begin=2018-11-01&time_end=2018-11-20&key=
      * @apiParam (请求参数说明) {String}  time_begin 时间查询开始时间
      * @apiParam (请求参数说明) {String}  time_end 时间查询结束时间
      * @apiParam (请求参数说明) {String}  key 关键字查询
