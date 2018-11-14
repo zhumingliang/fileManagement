@@ -43,7 +43,7 @@ class Token extends Controller
      * {"u_id":1,"username":"管理员","token":"bde274895aa23cff9462d5db49690452"}
      * @apiSuccess (返回参数说明) {int} u_id 用户id
      * @apiSuccess (返回参数说明) {int} username 管理员名称
-     * @apiSuccess (返回参数说明) {String} token 口令令牌，每次请求接口需要传入，有效期 2 hours
+     * @apiSuccess (返回参数说明) {String} token 口令令牌，每次请求接口时需要放在header里传入，有效期 2 hours
      * @param $phone
      * @param $pwd
      * @return \think\response\Json
