@@ -24,7 +24,7 @@ class Contract extends BaseController
      * @api {POST} /api/v1/contract/upload   5-上传合同pdf文件
      * @apiGroup  CMS
      * @apiVersion 1.0.1
-     * @apiDescription
+     * @apiDescription 上传合同pdf文件
      * @apiParam (请求参数说明) {String} file  上传时自定义名称
      * @apiSuccessExample {json} 返回样例:
      * {"msg": "ok","error_code": 0}
@@ -164,7 +164,7 @@ class Contract extends BaseController
      * @api {GET} /api/v1/contract/list/ready  9-获取待处理合同列表
      * @apiGroup  CMS
      * @apiVersion 1.0.1
-     * @apiDescription
+     * @apiDescription 获取待处理合同列表
      * @apiExample {get}  请求样例:
      * http://file.mengant.cn/api/v1/contract/list/ready?page=1&size=10&key=
      * @apiParam (请求参数说明) {int}  page 1
@@ -203,7 +203,7 @@ class Contract extends BaseController
      * @api {GET} /api/v1/contract/list/delete  10-获取删除合同列表
      * @apiGroup  CMS
      * @apiVersion 1.0.1
-     * @apiDescription
+     * @apiDescription 获取删除合同列表
      * @apiExample {get}  请求样例:
      * http://file.mengant.cn/api/v1/contract/list/delete?page=1&size=10&key=
      * @apiParam (请求参数说明) {int}  page 1
@@ -243,7 +243,7 @@ class Contract extends BaseController
      * @api {GET} /api/v1/contract/list/pass   11-获取审核通过合同列表
      * @apiGroup  CMS
      * @apiVersion 1.0.1
-     * @apiDescription
+     * @apiDescription 获取审核通过合同列表
      * @apiExample {get}  请求样例:
      * http://file.mengant.cn/api/v1/contract/list/pass?page=1&size=10&time_begin=2018-11-01&time_end=2018-11-20&key=
      * @apiParam (请求参数说明) {int}  page 1
@@ -284,10 +284,10 @@ class Contract extends BaseController
     }
 
     /**
-     * @api {GET} /api/v1/contract/export  12-导出合同报表
+     * @api {GET} /api/v1/contract/export  13-导出合同报表
      * @apiGroup  CMS
      * @apiVersion 1.0.1
-     * @apiDescription
+     * @apiDescription 导出合同报表
      * @apiExample {get}  请求样例:
      * http://file.mengant.cn/api/v1/contract/list/pass?time_begin=2018-11-01&time_end=2018-11-20&key=
      * @apiParam (请求参数说明) {String}  time_begin 时间查询开始时间
