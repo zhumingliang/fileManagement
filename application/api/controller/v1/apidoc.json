@@ -1,7 +1,7 @@
 {
-  "name": "盟蚁球馆API",
-  "title": "盟蚁球馆API",
-  "description": "盟蚁球馆API接口文档",
+  "name": "文件管理系统API",
+  "title": "文件管理API",
+  "description": "文件管理API接口文档",
   "url": "http://file.mengant.cn",
   "version": "1.1.0"
 }
